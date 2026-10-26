@@ -5,6 +5,8 @@ class verticals:
     def __init__(self,page):
         self.page=page;
 
+        #Testing commit with code changes 
+        
         #hover for vertical tab
         self.vertical=page.locator('(//a[text()="Verticals"])[1]')
         self.trading=page.locator('(//img[@alt="trading"])[1]')
